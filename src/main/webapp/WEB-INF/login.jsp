@@ -20,6 +20,9 @@
     <form action="/login" method="post" >
         <input type="text" name="mid">
         <input type="text" name="mpw">
+
+<%--       체크 시 LoginController에  auto라는 이름으로 체크박스로 전송 --%>
+        <input type="checkbox" name="auto">
         <button type="submit"> LOGIN </button>
     </form>
 
